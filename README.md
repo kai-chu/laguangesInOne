@@ -61,6 +61,13 @@ Tuples
 |  Size |  object.size(array) | tuple_size/1|
 | Add Element | object\[integer\] = v | put_elem/3 (t,index,v) |
 
+Conditions
+| Names | Java | Elixir  |
+|:---:|:---:|:---:|
+|Case|Switch(v){case T: default:}|case v do T when guard -> statement _ -> statement end|
+
+
+
 Files Operations
 File.read/1
 
@@ -84,3 +91,12 @@ Elixir specials
 
 5. Compare types
 number < atom < reference < function < port < pid < tuple < map < list < bitstring
+
+6. Pin operator ^
+Value of a variable
+
+7. big hole operator _
+Value won't be used
+
+Keep in mind errors in guards do not leak but simply make the guard fail:
+
