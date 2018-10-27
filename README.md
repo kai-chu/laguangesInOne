@@ -4,27 +4,28 @@ A repo to list the differences of different programming laguanges
 
 Arithmatics
 
-|  Operator     | Java           | Erlang  | Elixir |
-| ------------- |:-------------:| -----:|
+| Operator | Java | Erlang | Elixir |
+|:---:|:---:|:---:|:---:|
 |     Add   | + | + | + |
 |   Minus   | - | - | - |
 |  Multiply | * | * | * |
 |  Divide   | / | / | div a,b |
 |  DivideF  | (float)/| / | / |
 | Reminder  | % | % | rem a,b|
-| Or        | || | | \|\| |
-| And       | && || && |
+| Or        | \|\| | | \|\| |
+| And       | && | | && |
 | Not       | ! | | ! |
-| Or_Strict | - | | or |
-| And_Strict | - | | and |
-| Not_Strict | - | | not |
-| compare | ==, !=, <=, >=, <, > | | ==, !=, <=, >=, <, > |
-| compare_Strict | - | | ===, !== |
+| Or_Strict |  | | or |
+| And_Strict |  | | and |
+| Not_Strict |  | | not |
+| compare | ==, !=, <=, >=, <, > |  | ==, !=, <=, >=, <, > |
+| compare_Strict |  |  | ===, !== |
 
 
 Functions
+
 | Feature | Java | Elixir  |
-| ------- |:----:| ------: |
+|:---:|:---:|:---:|
 | Identify| funName+argTypes | funName/numOfArgs |
 | constants| enum | atom |
 | Anonymous | Function f = (a, b)->{return a + b;} | f = fn a, b -> a + b end |
@@ -43,8 +44,8 @@ Strings
 
 DataStructures
 | Names | Java | Elixir  |
-| ------- |:----:| ------: |
-| LinkedList | new LinkedList({a,b}) | [a,b] |
+|:-------:|:----:|:------:|
+| LinkedList | new LinkedList({a,b}) | \[a,b\] |
 | Tuples     | Array  | {a,b} |
 
 List
@@ -56,9 +57,9 @@ List
 Tuples
 | Names | Java | Elixir  |
 | ------- |:----:| ------: |
-| Access Element |  object[integer] | elem/2 (0-index)|
+| Access Element |  object\[integer\] | elem/2 (0-index)|
 |  Size |  object.size(array) | tuple_size/1|
-| Add Element | object[integer] = v | put_elem/3 (t,index,v) |
+| Add Element | object\[integer\] = v | put_elem/3 (t,index,v) |
 
 Files Operations
 File.read/1
