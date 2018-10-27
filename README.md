@@ -2,8 +2,8 @@
 A repo to list the differences of different programming laguanges
 
 
-
 Arithmatics
+
 |  Operator     | Java           | Erlang  | Elixir |
 | ------------- |:-------------:| -----:|
 |     Add   | + | + | + |
@@ -35,10 +35,12 @@ Strings
 | Feature | Java | Elixir  |
 | ------- |:----:| ------: |
 | line breaks | \\n | \\n |
-| constants| enum | atom |
+| constants| enum | :atom |
 | Length  | object.length | String.length/1 |
 | ToUpperCase | object.toUpperCase | String.upcase/1 |
 | concatenation | ++ | <> |
+
+
 DataStructures
 | Names | Java | Elixir  |
 | ------- |:----:| ------: |
