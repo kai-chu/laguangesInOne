@@ -98,5 +98,9 @@ Value of a variable
 7. big hole operator _
 Value won't be used
 
+8. Guard exception won't fail
 Keep in mind errors in guards do not leak but simply make the guard fail:
+
+9. Resources regarding do/end
+https://elixir-lang.org/getting-started/case-cond-and-if.html
 
