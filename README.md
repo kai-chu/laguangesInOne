@@ -78,7 +78,7 @@ all values except false and nil will evaluate to true:
 
 Elixir specials
 1. Identify Functions
-..* is_boolean/1, is_integer/1, is_float/1, is_number/1, is_atom/1, is_binary/1, is_function/1, i/1
+..* is_boolean/1, is_integer/1, is_float/1, is_number/1, is_atom/1, is_binary/1, is_function/1, i/1, is_bitstring/1
 
 2. Aliases constructor
 ..* Aliases start in upper case and are atoms
